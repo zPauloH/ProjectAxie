@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color:#181818;
+;
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+.btn {
+  width: 195px;
+  height: 50px;
+  font-size: 1em;
+  background-color: rgb(81, 149, 255);
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+
+}
+.btn:hover{
+  background-color: rgb(114, 166, 250);
+  color: #fff;
+}
+.display {
+  font-size: 4em;
+  width: 100%;
+  text-align: center;
+  border: none;
+  color: white;
+  background-color: #181818;
+}
+#ref{
+  margin: 6px;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  background-color: rgb(81, 149, 255);
+}
+#botoes{
+  text-align: left;
+  background-color: #1E1E1E;
+  color: #fff;
+  width: 270px;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 5px;
+  font-size:23px;
+}
+#texto{
+  background-color:#2929297a;
+  text-align: left;
+  color: white;
+  width: 250px;
+  margin: 50px auto;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
